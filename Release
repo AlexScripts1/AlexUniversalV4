@@ -13,7 +13,7 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false})
 	
-	Tab:AddLabel("Universal Script Made By Aloneo And Alex")
+	Tab:AddLabel("Universal Script Made by Alex")
 	
 	Tab:AddButton({
 	Name = "Click To Join Our Discord",
