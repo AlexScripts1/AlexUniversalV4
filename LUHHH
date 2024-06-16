@@ -8,13 +8,6 @@ OrionLib:MakeNotification({
 	Time = 5
 })
 
-OrionLib:MakeNotification({
-	Name = "Added UNC Test Script In Offical/Main",
-	Content = "Beta Version",
-	Image = "rbxassetid://4483345998",
-	Time = 6
-})
-
 local Tab = Window:MakeTab({
 	Name = "Official / Main",
 	Icon = "rbxassetid://4483345998",
@@ -77,10 +70,11 @@ local Section = Tab:AddSection({
 	Name = "New Update"
 })
 
-Tab:AddLabel("--------- Version 4.3 News ---------")
-Tab:AddLabel("[ + ] Added New Dusty Trip Script")
-Tab:AddLabel("[ + ] Added New Mm2 Script")
-Tab:AddLabel("[ + ] Added UNC Test Script Offical/Main")
+Tab:AddLabel("--------- Version 4.4 News ---------")
+Tab:AddLabel("Removed Script Hub")
+Tab:AddLabel("Added New Brookhaven Script Only Pc/laptop")
+Tab:AddLabel("Added Bang Script On Misc Script Tab")
+Tab:AddLabel("Added Head Sit Script On Misc Script Tab")
 
 local Tab = Window:MakeTab({
 	Name = "Script Games",
@@ -382,6 +376,13 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "Pc/Laptop Only",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
+  	end  
+})
+
 local Section = Tab:AddSection({
 	Name = "Murder Mystery 2 🎄"
 })
@@ -654,34 +655,8 @@ Tab:AddButton({
 	Name = "Op Script",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/sirapobsriumang/Death-Bal/main/Op-Script-by-me"))()
-  	end    
-})
-
-local Tab = Window:MakeTab({
-	Name = "Script Hub",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false})
-
-Tab:AddButton({
-	Name = "BidoSkins Hub",
-	Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20Skins%20V1.8"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "BT Project Hub",
-	Callback = function()
-    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-BT-Project-8158"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "Alexis Universal Script",
-	Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Smallgames455/Universe-Script-V2/main/Universal%20Script%20V2"))();
-  	end    
-})
+   end
+})    
 
 local Tab = Window:MakeTab({
 	Name = "Executor UI",
@@ -709,13 +684,6 @@ Tab:AddButton({
   	end    
 })
 
-Tab:AddButton({
-	Name = "PxyPixel",
-	Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/k00pz/Brandnew-ahh-ked/main/the-first-executer-from-pxypixel"))()
-  	end    
-})
-
 local Tab = Window:MakeTab({
 	Name = "Misc Script",
 	Icon = "rbxassetid://4483345998",
@@ -729,6 +697,13 @@ Tab:AddButton({
 	Name = "Fe Emote UI",
 	Callback = function()
     loadstring(game:HttpGet("https://pastebin.com/raw/eCpipCTH"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Bang Script (sus)",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Alexisisback/Universal-/main/Bang%20Updated%20Me"))()
   	end    
 })
 
