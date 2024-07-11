@@ -2,8 +2,8 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/tha
 local Window = OrionLib:MakeWindow({Name = "Alexis Universal Script", HidePremium = false, SaveConfig = true, IntroText = "Loading..." })
 
 OrionLib:MakeNotification({
-	Name = "Alex Universal Script",
-	Content = "Beta Version",
+	Name = "Welcome To Alexis V4.4.1",
+	Content = "Check New Update Tab To See What It Added.",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
@@ -61,6 +61,13 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "Fe All Emotes",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/eCpipCTH"))()
+  	end    
+})
+
 local Tab = Window:MakeTab({
 	Name = "New Update",
 	Icon = "rbxassetid://4483345998",
@@ -71,10 +78,7 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddLabel("--------- Version 4.4 News ---------")
-Tab:AddLabel("Removed Script Hub")
-Tab:AddLabel("Added New Brookhaven Script Only Pc/laptop")
-Tab:AddLabel("Added Bang Script On Misc Script Tab")
-Tab:AddLabel("Added Head Sit Script On Misc Script Tab")
+Tab:AddLabel("Added Fe All Emotes only for Codex, Arceus x ,fluxus. at the Misc Scripts Tab")
 
 local Tab = Window:MakeTab({
 	Name = "Script Games",
