@@ -78,8 +78,7 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddLabel("--------- Version 4.4 News ---------")
-Tab:AddLabel("Added Fe All Emotes only for Codex, Arceus x ,fluxus. at the 
-Offical/main Tab")
+Tab:AddLabel("Added Fe All Emotes In Offical/Main Tab")
 
 local Tab = Window:MakeTab({
 	Name = "Script Games",
