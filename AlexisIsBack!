@@ -1,10 +1,11 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Alexis Universal Script", HidePremium = false, SaveConfig = true, IntroText = "Loading..." })
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Seven7-lua/Roblox/refs/heads/main/Librarys/Orion/Orion.lua')))()
+local Window = OrionLib:MakeWindow({Name = "Alexis Univeral Script [Back]", HidePremium = false, SaveConfig = true, IntroText = "Loading..." })
+
 
 OrionLib:MakeNotification({
 	Name = "Welcome To Alexis V4.4.1",
 	Content = "Check New Update Tab To See What It Added.",
-	Image = "rbxassetid://4483345998",
+	Image = "rbxassetid://108058631468350",
 	Time = 5
 })
 
@@ -13,7 +14,7 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false})
 	
-	Tab:AddLabel("Universal Script Made By Aloneo And Alex")
+	Tab:AddLabel("Universal Script Made By Alex")
 	
 	Tab:AddButton({
 	Name = "Click To Join Our Discord",
@@ -152,15 +153,8 @@ Tab:AddButton({
   	end    
 })
 
-Tab:AddButton({
-	Name = "Best Script ❄️",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/autoparry.lua"))()
-  	end    
-})
-
 local Section = Tab:AddSection({
-	Name = "Pet Simulator 99 🎄"
+	Name = "Pet Simulator 99"
 })
 
 Tab:AddButton({
@@ -212,11 +206,11 @@ Tab:AddButton({
 })
 
 local Section = Tab:AddSection({
-	Name = "BloxFruit 🎄"
+	Name = "BloxFruit"
 })
 
 Tab:AddButton({
-	Name = "Annie Hub ❄️",
+	Name = "Annie Hub",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Anniecuti/Free-Scr/main/Annie-Hub.lua"))()
   	end    
@@ -272,24 +266,24 @@ Tab:AddButton({
 })
 
 local Section = Tab:AddSection({
-	Name = "Break In 2 🎄"
+	Name = "Break In 2"
 })
 Tab:AddButton({
-	Name = "Breaking Blitz ❄️",
+	Name = "Breaking Blitz",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/RScriptz/RobloxScripts/main/BreakIn2.lua"))()
   	end   
  })
   
 Tab:AddButton({
-	Name = "items Giver ❄️",
+	Name = "items Giver",
 	Callback = function()
       		loadstring(game:HttpGet("https://freenote.biz/raw/qLlMYwbVNd",true))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "Harlen Hub ❄️",
+	Name = "Harlen Hub",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/harlenscripts/HarlenHub/main/HarlenScripts"))()
   	end    
@@ -303,7 +297,7 @@ Tab:AddButton({
 })
 
 local Section = Tab:AddSection({
-	Name = "Evade 🎄"
+	Name = "Evade"
 })
 
 Tab:AddButton({
@@ -328,14 +322,7 @@ Tab:AddButton({
 })
 
 local Section = Tab:AddSection({
-	Name = "Brookhaven 🎄"
-})
-
-Tab:AddButton({
-	Name = "Ice Hub ❄️",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
-  	end    
+	Name = "Brookhaven"
 })
 
 Tab:AddButton({
@@ -380,13 +367,6 @@ Tab:AddButton({
   	end    
 })
 
-Tab:AddButton({
-	Name = "Pc/Laptop Only",
-	Callback = function()
-      		loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
-  	end  
-})
-
 local Section = Tab:AddSection({
 	Name = "Murder Mystery 2 🎄"
 })
@@ -412,15 +392,8 @@ Tab:AddButton({
   	end    
 })
 
-Tab:AddButton({
-	Name = "Yarhm Script",
-	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
-  	end    
-})
-
 local Section = Tab:AddSection({
-	Name = "Doors 🎄"
+	Name = "Doors"
 })
 
 Tab:AddButton({
@@ -466,13 +439,20 @@ Tab:AddButton({
 	Name = "Bolts Hub ( OP ) ❄️",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/Main"))()
-  	end    
+   	end    
 })
 
 Tab:AddButton({
 	Name = "DexHub Script Arsenal ❄️",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/Arsenal"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "tbao Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/ArsenalTbaoHubNew"))()
   	end    
 })
 
@@ -604,63 +584,24 @@ Tab:AddButton({
   	end    
 })
 
-local Section = Tab:AddSection({
-	Name = "Arm Wrestle Simulator 🎄"
-})
+local Tab = Window:MakeTab({
+	Name = "Script Hub",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false})
 
 Tab:AddButton({
-	Name = "Pikachu Hub ❄️",
+	Name = "BidoSkins Hub ❄️",
 	Callback = function()
-      		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/99d16edc79729a038994f85ce7335971.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20Skins%20V1.8"))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "Op Script ❄️",
+	Name = "BT Project Hub ❄️",
 	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/raw/6TmL5ZXG"))()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-BT-Project-8158"))()
   	end    
 })
-
-local Section = Tab:AddSection({
-	Name = "Dusty Trip"
-})
-
-Tab:AddButton({
-	Name = "Legend",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/trip/main/dusty"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "Connect Hub",
-	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/ADustyTrip",true))()
-  	end    
-})
-
-local Section = Tab:AddSection({
-	Name = "Arsenal"
-})
-
-Tab:AddButton({
-	Name = "tbao Hub",
-	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/ArsenalTbaoHubNew"))()
-  	end    
-})
-
-local Section = Tab:AddSection({
-	Name = "Death Hub"
-})
-
-Tab:AddButton({
-	Name = "Op Script",
-	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/sirapobsriumang/Death-Bal/main/Op-Script-by-me"))()
-   end
-})    
 
 local Tab = Window:MakeTab({
 	Name = "Executor UI",
@@ -668,23 +609,30 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false})
 	
 	Tab:AddButton({
-	Name = "Arceus X V3",
+	Name = "Arceus X V3 ❄️",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "Synapse X",
+	Name = "Synapse X ❄️",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/Chillz-s-scripts/main/Synapse-X-Remake.lua"))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "KRNL",
+	Name = "KRNL ❄️",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/wtfplayer/redemption/main/krnlnoui.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "PxyPixel ❄️",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/k00pz/Brandnew-ahh-ked/main/the-first-executer-from-pxypixel"))()
   	end    
 })
 
@@ -694,51 +642,76 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false})
 
 local Section = Tab:AddSection({
-	Name = "FE Script"
+	Name = "FE Script ❄️"
 })
 
 Tab:AddButton({
-	Name = "Fe Emote UI",
+	Name = "Fe Emote UI ❄️",
 	Callback = function()
     loadstring(game:HttpGet("https://pastebin.com/raw/eCpipCTH"))()
   	end    
 })
-
-Tab:AddButton({
-	Name = "Bang Script (sus)",
-	Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Alexisisback/Universal-/main/Bang%20Updated%20Me"))()
-  	end    
-})
-
 local Section = Tab:AddSection({
-	Name = "RTX Shaders"
+	Name = "RTX Shaders 🎄"
 })
 
 Tab:AddButton({
-	Name = "RTX ( Low )",
+	Name = "RTX ( Low ) ❄️",
 	Callback = function()
     loadstring(game:HttpGet(('https://pastebin.com/raw/beJhkj3m'),true))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "RTX ( Medium )",
+	Name = "RTX ( Medium ) ❄️",
 	Callback = function()
     loadstring(game:HttpGet(('https://pastebin.com/raw/bEL98kZE'),true))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "RTX ( High )",
+	Name = "RTX ( High ) ❄️",
 	Callback = function()
     loadstring(game:HttpGet(('https://pastefy.app/BIr8OzrR/raw'),true))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "RTX ( Ultra )",
+	Name = "RTX ( Ultra ) ❄️",
 	Callback = function()
     loadstring(game:HttpGet(('https://pastebin.com/raw/uqD7VqQU'),true))()
   	end    
 })
+
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = "Toggleui"
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+
+local Toggle = Instance.new("TextButton")
+Toggle.Name = "Toggle"
+Toggle.Parent = ScreenGui
+Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Toggle.BackgroundTransparency = 0.5
+Toggle.Position = UDim2.new(0, 0, 0.454706937, 0)
+Toggle.Size = UDim2.new(0, 50, 0, 50)
+Toggle.Draggable = true
+
+local Corner = Instance.new("UICorner")
+Corner.CornerRadius = UDim.new(0.2, 0)
+Corner.Parent = Toggle
+
+local Image = Instance.new("ImageLabel")
+Image.Name = "Icon"
+Image.Parent = Toggle
+Image.Size = UDim2.new(1, 0, 1, 0)
+Image.BackgroundTransparency = 1
+Image.Image = "rbxassetid://108058631468350" 
+
+local Corner2 = Instance.new("UICorner")
+Corner2.CornerRadius = UDim.new(0.2, 0)
+Corner2.Parent = Image
+
+Toggle.MouseButton1Click:Connect(function()
+  OrionLib:ToggleUi()
+end)
