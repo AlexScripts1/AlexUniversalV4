@@ -1,10 +1,10 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Seven7-lua/Roblox/refs/heads/main/Librarys/Orion/Orion.lua')))()
-local Window = OrionLib:MakeWindow({Name = "Alexis Univeral Script [Back]", HidePremium = false, SaveConfig = true, IntroText = "Loading..." })
+local Window = OrionLib:MakeWindow({Name = "Alexis Univeral Script", HidePremium = false, SaveConfig = true, IntroText = "Loading..." })
 
 
 OrionLib:MakeNotification({
-	Name = "Welcome To Alexis V4.4.1",
-	Content = "Check New Update Tab To See What It Added.",
+	Name = "Welcome To Alexis V4.5",
+	Content = "Check New Update Tab To See What is the new update.",
 	Image = "rbxassetid://108058631468350",
 	Time = 5
 })
@@ -78,8 +78,9 @@ local Section = Tab:AddSection({
 	Name = "New Update"
 })
 
-Tab:AddLabel("--------- Version 4.3 News ---------")
-Tab:AddLabel("Added Fe All Emotes At The Ofiical/Main Tab")
+Tab:AddLabel("--------- Version 4.5 News ---------")
+Tab:AddLabel("Added a dusty trip")
+Tab:AddLabel("Added dead rails")
 
 local Tab = Window:MakeTab({
 	Name = "Script Games",
@@ -206,7 +207,7 @@ Tab:AddButton({
 })
 
 local Section = Tab:AddSection({
-	Name = "BloxFruit"
+	Name = "BloxFruits"
 })
 
 Tab:AddButton({
@@ -584,22 +585,32 @@ Tab:AddButton({
   	end    
 })
 
-local Tab = Window:MakeTab({
-	Name = "Script Hub",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false})
+local Section = Tab:AddSection({
+	Name = "a dusty trip"
+})
 
 Tab:AddButton({
-	Name = "BidoSkins Hub ❄️",
+	Name = "Skibidi Hub",
 	Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20Skins%20V1.8"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/aemos2/Skibidihub/refs/heads/main/SkibidiHUB.txt"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Dead Rails"
+})
+
+Tab:AddButton({
+	Name = "Null Fire",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "BT Project Hub ❄️",
+	Name = "Ronix Hub",
 	Callback = function()
-    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-BT-Project-8158"))()
+      		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/672a0ae340e8ce7e21a51e37c6bf0cc1.lua"))()
   	end    
 })
 
