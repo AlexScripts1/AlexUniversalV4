@@ -85,9 +85,8 @@ local Section = Tab:AddSection({
 	Name = "New Update"
 })
 
-Tab:AddLabel("--------- Version 4.5 News ---------")
-Tab:AddLabel("Added a dusty trip")
-Tab:AddLabel("Added dead rails")
+Tab:AddLabel("--------- Version 4.5.1News ---------")
+Tab:AddLabel("Added AFEM In Offical / Main Tab.")
 
 local Tab = Window:MakeTab({
 	Name = "Script Games",
