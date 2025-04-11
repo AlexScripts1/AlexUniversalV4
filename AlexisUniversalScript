@@ -3,7 +3,7 @@ local Window = OrionLib:MakeWindow({Name = "Alexis Univeral Script", HidePremium
 
 
 OrionLib:MakeNotification({
-	Name = "Welcome To Alexis V4.5",
+	Name = "Welcome To Alexis V4.5.1",
 	Content = "Check New Update Tab To See What is the new update.",
 	Image = "rbxassetid://108058631468350",
 	Time = 5
@@ -66,6 +66,13 @@ Tab:AddButton({
 	Name = "Fe All Emotes",
 	Callback = function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/eCpipCTH"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "AFEM/Fe All Emotes Too.",
+	Callback = function()
+		loadstring(game:HttpGet("https://yarhm.mhi.im/scr?channel=afem", false))()
   	end    
 })
 
@@ -652,16 +659,6 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false})
 
-local Section = Tab:AddSection({
-	Name = "FE Script ❄️"
-})
-
-Tab:AddButton({
-	Name = "Fe Emote UI ❄️",
-	Callback = function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/eCpipCTH"))()
-  	end    
-})
 local Section = Tab:AddSection({
 	Name = "RTX Shaders 🎄"
 })
